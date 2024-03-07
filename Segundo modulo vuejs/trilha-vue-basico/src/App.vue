@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+import Componente from "./components/Componente.vue";
+import SintaxeDeTemplate from "./components/SintaxeDeTemplate.vue";
+</script>
 
 <template>
-  <main></main>
+  <main>
+    <!-- <Componente /> -->
+    <SintaxeDeTemplate />
+  </main>
 </template>
