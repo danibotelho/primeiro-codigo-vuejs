@@ -4,6 +4,7 @@ import Computed from "./components/Computed.vue";
 import Watcher from "./components/Watcher.vue";
 import ClassEStyle from "./components/ClassEStyle.vue";
 import CondicionalRender from "./components/CondicionalRender.vue";
+import Listas from "./components/Listas.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import CondicionalRender from "./components/CondicionalRender.vue";
     <!-- <Computed /> -->
     <!-- <Watcher /> -->
     <!-- <ClassEStyle /> -->
-    <CondicionalRender />
+    <!-- <CondicionalRender /> -->
+    <Listas />
   </main>
 </template>
