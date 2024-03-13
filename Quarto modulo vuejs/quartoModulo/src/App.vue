@@ -5,6 +5,7 @@ import Watcher from "./components/Watcher.vue";
 import ClassEStyle from "./components/ClassEStyle.vue";
 import CondicionalRender from "./components/CondicionalRender.vue";
 import Listas from "./components/Listas.vue";
+import TemplateRef from "./components/TemplateRef.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Listas from "./components/Listas.vue";
     <!-- <Watcher /> -->
     <!-- <ClassEStyle /> -->
     <!-- <CondicionalRender /> -->
-    <Listas />
+    <!-- <Listas /> -->
+    <TemplateRef />
   </main>
 </template>
