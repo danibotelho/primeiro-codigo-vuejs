@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import EventosLifeCycleHooksVue from "./components/EventosLifeCycleHooks.vue";
+</script>
 
 <template>
-  <main></main>
+  <main>
+    <EventosLifeCycleHooksVue />
+  </main>
 </template>
