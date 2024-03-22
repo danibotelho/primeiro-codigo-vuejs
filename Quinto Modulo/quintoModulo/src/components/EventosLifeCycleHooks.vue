@@ -7,7 +7,7 @@
 // meuBotao.addEventListener("click", clickBotao);
 
 //exemplo botão com vue.js
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 const contador = ref(0);
 const nome = ref("vue.js");
@@ -34,6 +34,11 @@ const mensagem = ref("");
 const check = ref(false);
 const radio = ref("");
 const select = ref("");
+
+onMounted(() => {
+  console.log("Componente foi montado");
+})
+
 </script>
 <!-- stopPropgation() conceito -->
 <!-- a propagação é interrompida, então numa situação onde pai e filho 
